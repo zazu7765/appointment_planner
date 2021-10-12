@@ -25,6 +25,7 @@ export const AppointmentForm = ({
         type="text"
         value={title}
         onChange={({target}) => setTitle(target.value)}
+        placeholder= "title of your event =>"
       />
       <input 
         type="date"
@@ -41,6 +42,7 @@ export const AppointmentForm = ({
         contacts={contacts}
         value={contact}
         onChange={({target}) => setContact(target.value)}
+        placeholder = "contact for this event"
       />
       <input type="submit"/>
     </form>
